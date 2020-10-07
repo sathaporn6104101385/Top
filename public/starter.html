@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADMIN | Top</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/adminlte.min.css">
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-info navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-3">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Messages Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-comments"></i>
+                        <span class="badge badge-danger navbar-badge">3</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Brad Diesel
+                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">Call me whenever you can...</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        John Pierce
+                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">I got your message bro</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Nora Silvester
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">The subject goes here</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                    </div>
+                </li>
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                        <i class="fas fa-th-large"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-danger elevation-4" >
+            <!-- Brand Logo -->
+            <a  class="brand-link">
+                <img src="image/logo.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: .8">
+                <span class="brand-text font-weight-light">AdminTop</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar" >
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="image/1.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#" class="d-block">Sathaporn Teekham</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2" >
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+                        <li class="nav-item menu-open">
+                            <a href="profile.html" class="nav-link active">
+                                <i class="fas fa-users"></i>
+                                <p>
+                                    ข้อมูลส่วนตัว
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="profile.html" class="nav-link">
+                                        <i class="fas fa-user-astronaut"></i>
+                                        <p>ประวัติส่วนตัว</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="starter.html" class="nav-link">
+                                        <i class="fas fa-book-open"></i>
+                                        <p>ประวัติการศึกษา</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content เนื้อหา -->
+        <div class="content-wrapper" style="background-image: url(image/4.jpg);">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0 text-dark">Graph</h1>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <div class="content">
+                <div class="container-fluid">
+                    <!-- โรงเรียน -->
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4"  style="background-color: burlywood;">
+                                <img src="image/PT.jpg" alt="" width="25%" height="25%">
+                                <div class="info-box-content">
+                                    <span class="info-box-number">ระดับประถมศึกษา :</span>
+                                    <span class="info-box-number">โรงเรียนเทศบาล 4 สันป่าก่อ</span>                                    
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4"  style="background-color: rgb(225, 245, 155);">
+                                <img src="image/MY.jpg" alt="" width="25%" height="25%">
+                                <div class="info-box-content">
+                                    <span class="info-box-number">มัธยมศึกษาตอนปลาย :</span>
+                                    <span class="info-box-number">โรงเรียนเทศบาล 5 เด่นห้า </span>                                
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4"  style="background-color: rgb(241, 163, 209);">
+                                <img src="image/logo3.jpg" alt="" width="25%" height="25%">
+                                <div class="info-box-content">
+                                    <span class="info-box-number">อุดมศึกษา :</span>
+                                    <span class="info-box-number">วิทยาการคอมพิวเตอร์ มหาวิทยาลัยแม่โจ้</span>
+                                    
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- กราฟ GPA ทุกเทอม -->
+                    <!-- BAR CHART -->
+                    <div class="card card-cyan">
+                        <div class="card-header ">
+                            <h3 class="card-title ">กราฟ GPA</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!--โปรแกรม-->
+                    <div class="row">
+                        <!-- DONUT CHART -->
+                        <div class="card card-teal">
+                            <div class="card-header">
+                                <h4>SKII ME</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="donutChart"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card card-light">
+                                <div class="card-header" style="height: 350px; width: 500px;">
+                                    <p class="text-center">กราฟความสามารถในการเขียนโปรแกรม</p>
+
+                                    <div class="progress-group">
+                                        DevC++
+                                        <span class="float-right"><b>50</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-pink" style="width: 50%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.progress-group -->
+                                    <div class="progress-group">
+                                        Java
+                                        <span class="float-right"><b>45</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-red" style="width: 45%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-group">
+                                        Python
+                                        <span class="progress-text"></span>
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-orange" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-group">
+                                        Html
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-warning" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-group">
+                                        Colab
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-warning" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+                Contact : 095-xxx-xxxx
+            </div>
+            <!-- Default to the left -->
+            <strong>Facebook : <a href="https://www.facebook.com/sathaporn.teekham">Sathaporn Teekham</a></strong>
+        </footer>
+
+    </div>
+</body>
+<!-- script -->
+<!-- jQuery -->
+<script src="js/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="js/chart.js/Chart.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/adminlte.min.js"></script>
+
+<script>
+    $(function () {
+        /* ChartJS
+         * -------
+         * Here we will create a few charts using ChartJS
+         */
+        var areaChartData = {
+            labels: ['1/1', '1/2', '2/1', '2/1', '3/1', 'GPA รวม'],
+            datasets: [
+                {
+                    label: 'GPA',
+                    backgroundColor: 'rgb(255, 191, 172)',
+                    borderColor: 'rgb(255, 191, 151)',
+                    pointRadius: false,
+                    pointColor: '#3b8bba',
+                    pointStrokeColor: 'rgba(60,141,188,1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgb(93, 112, 165)',
+                    data: [2.50, 2.16, 2.92, 3.14, 0.00, 2.70]
+                },
+            ]
+        }
+        //-------------
+        //- DONUT CHART -
+        //-------------
+        // Get context with jQuery - using jQuery's .get() method.
+        var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+        var donutData = {
+            labels: [
+                'คณิตศาสตร์',
+                'ภาษาไทย',
+                'อังกฤษ',
+                'คอมพิวเตอร์',
+                'นอนหลับ',
+            ],
+            datasets: [
+                {
+                    data: [25, 20, 25, 20, 50],
+                    backgroundColor: ['#ff9f99', '#ff574b', '#ff9f51', '#ffdf32'],
+                }
+            ]
+        }
+        var donutOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+        }
+        //Create pie or douhnut chart
+        // You can switch between pie and douhnut using the method below.
+        var donutChart = new Chart(donutChartCanvas, {
+            type: 'doughnut',
+            data: donutData,
+            options: donutOptions
+        })
+        //-------------
+        //- BAR CHART -
+        //-------------
+        var barChartCanvas = $('#barChart').get(0).getContext('2d')
+        var barChartData = $.extend(true, {}, areaChartData)
+        var temp0 = areaChartData.datasets[0]
+        //var temp1 = areaChartData.datasets[1]
+        barChartData.datasets[0] = temp0
+        //barChartData.datasets[1] = temp0
+        var barChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            datasetFill: false
+        }
+        var barChart = new Chart(barChartCanvas, {
+            type: 'bar',
+            data: barChartData,
+            options: barChartOptions
+        })
+        //---------------------
+        //- STACKED BAR CHART -
+        //---------------------
+        var stackedBarChartCanvas = $('#stackedBarChart').get(0).getContext('2d')
+        var stackedBarChartData = $.extend(true, {}, barChartData)
+        var stackedBarChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                xAxes: [{
+                    stacked: true,
+                }],
+                yAxes: [{
+                    stacked: true
+                }]
+            }
+        }
+        var stackedBarChart = new Chart(stackedBarChartCanvas, {
+            type: 'bar',
+            data: stackedBarChartData,
+            options: stackedBarChartOptions
+        })
+    })
+</script>
+
+</html>
